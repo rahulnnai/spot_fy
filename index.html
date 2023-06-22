@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify Your favourite music player </title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li><a href="https://open.spotify.com/" class="home">Home</a></li>
+            <li><a href="https://www.spotify.com/in-en/about-us/contact/" class="about">About</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of KK</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cover/cover2.jpeg" alt="1">
+                    <span class="songName">Kya mujhe pyar hai</span>
+                    <span class="songlistplay"><span class="timeStamp">4:26 <i id="0" class="fa-solid songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover/cover2.jpeg" alt="1">
+                    <span class="songName">Kya mujhe pyar hai</span>
+                    <span class="songlistplay"><span class="timeStamp">5:22 <i id="1" class="fa-solid songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover/cover2.jpeg" alt="1">
+                    <span class="songName">Kya mujhe pyar hai</span>
+                    <span class="songlistplay"><span class="timeStamp">4:32 <i id="2" class="fa-solid songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover/cover2.jpeg" alt="1">
+                    <span class="songName">Kya mujhe pyar hai</span>
+                    <span class="songlistplay"><span class="timeStamp">3:56 <i id="3" class="fa-solid songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover/cover2.jpeg" alt="1">
+                    <span class="songName">Kya mujhe pyar hai</span>
+                    <span class="songlistplay"><span class="timeStamp">5:02 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100 ">
+        <div class="icons">
+            <!-- fontawsomefonts -->
+            <i class="fa-solid fa-2x  fa-backward" id="previous"></i>
+            <i class="fa-solid fa-2x  fa-play"  id="masterPlay"></i>
+            <i class="fa-solid fa-2x  fa-forward " id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="wave.gif" alt="wavegif" width="42px" id="gif" > <span id="masterSongName">kya mujhe pyar hai</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/cdfaf82e0a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

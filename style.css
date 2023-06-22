@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+    caret-color: transparent;
+    user-select: none;
+    
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+}
+ nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white ;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 44px  ;
+    padding: 0 7px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 62vh;
+    background-color: black;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    margin: 7px auto;
+    width: 65%;
+    border-radius: 12px;
+    padding: 28px;
+    background-image: url('KKbg.jpg');
+}
+
+.bottom {
+    position: sticky;
+    height: 98px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    bottom: 0;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons i {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: #fff;
+    width: 120%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songItem img {
+    width: 43px;
+    margin: 0 9px;
+    border-radius: 30px;
+}
+
+.timeStamp {
+    margin: 0 20px;
+}
+
+.timeStamp i {
+    cursor: pointer;
+}
+
+.songItemContainer {
+    margin-top: 25px;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'Oswald', sans-serif;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.songItemPlay {
+    margin: 0 5px;
+    width: 5px;
+}
+.home , .about {
+    color: #fff;
+    text-decoration-line: none;
+}
